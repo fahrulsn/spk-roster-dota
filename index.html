@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <script type="text/javascript" src="script.js "></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="slide fade"><img src="img/Header.png" /></div>
+      <div class="nav">
+        <div class="logo"><img src="img/LogoIEL.png" /></div>
+        <div class="text">
+          <h1>IEL | Universitas 45 Surabaya</h1>
+          <h2>
+            Sistem Pendukung Keputusan Pemilihan Roster Team Dota 2 Dengan
+            Metode SAW-TOPSIS
+          </h2>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <div class="content-player">
+        <div id="players">
+          <h2>List Data Player</h2>
+        </div>
+        <div id="container"></div>
+      </div>
+      <div class="content-bobot">
+        <h2>BOBOT</h2>
+        <h3>
+          Select Role
+          <select id="roleSelect" onchange="updateWeights()">
+            <option value="" selected>Custom</option>
+            <option value="core">Core</option>
+            <option value="support">Support</option>
+          </select>
+        </h3>
+        <div class="content-input">
+          <div id="input-container">
+            <div class="input-label">
+              <label for="match">Match</label>
+              <input type="number" id="match" placeholder="match" />
+            </div>
+            <div class="input-label">
+              <label for="avgGPM">Average GPM</label>
+              <input type="number" id="avgGPM" placeholder="avgGPM weight" />
+            </div>
+            <div class="input-label">
+              <label for="avgXPM">Average XPM</label>
+              <input type="number" id="avgXPM" placeholder="avgXPM weight" />
+            </div>
+            <div class="input-label">
+              <label for="avgKill">Average Kill</label>
+              <input type="number" id="avgKill" placeholder="avgKill weight" />
+            </div>
+            <div class="input-label">
+              <label for="avgAssist">Average Assist</label>
+              <input
+                type="number"
+                id="avgAssist"
+                placeholder="avgAssist weight"
+              />
+            </div>
+            <div class="input-label">
+              <label for="avgDmg">Average DMG</label>
+              <input type="number" id="avgDmg" placeholder="avgDmg weight" />
+            </div>
+            <div class="input-label">
+              <label for="heroPool">Hero Pool</label>
+              <input
+                type="number"
+                id="heroPool"
+                placeholder="heroPool weight"
+              />
+            </div>
+            <div class="input-label">
+              <label for="commWeight">Communication</label>
+              <input type="number" id="commWeight" placeholder="comm weight" />
+            </div>
+            <div class="input-label">
+              <label for="tourneyWeight">Tournament</label>
+              <input
+                type="number"
+                id="tourneyWeight"
+                placeholder="tourney weight"
+              />
+            </div>
+          </div>
+          <button onclick="importPlayersData()">Calculate</button>
+        </div>
+      </div>
+      <div class="content-chosen">
+        <div id="chosen-player"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="footerleft">
+        <img src="/img/logoUniv45.png" />
+        <div class="logotext">
+          <h1>Jl. Mayjen Sungkono 106 Surabaya</h1>
+          <h2>(031) 56112214</h2>
+        </div>
+      </div>
+      <div class="logofooter">
+        <img src="img/Logo45.png" />
+      </div>
+    </footer>
+  </body>
+</html>

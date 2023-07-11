@@ -1,0 +1,74 @@
+{
+  "players": [
+    {
+      "name": "Palos",
+      "data": {
+        "match": 94,
+        "avgGPM": 662,
+        "avgXPM": 752,
+        "avgKill": 8.7,
+        "avgAssist": 9.9,
+        "avgDmg": 29946,
+        "heroPool": 16,
+        "comm": 95,
+        "tourney": 2
+      }
+    },
+    {
+      "name": "Nisha",
+      "data": {
+        "match": 93,
+        "avgGPM": 604,
+        "avgXPM": 723,
+        "avgKill": 8.3,
+        "avgAssist": 12.1,
+        "avgDmg": 30505,
+        "heroPool": 22,
+        "comm": 85,
+        "tourney": 3
+      }
+    },
+    {
+      "name": "Crystallis",
+      "data": {
+        "match": 90,
+        "avgGPM": 573,
+        "avgXPM": 667,
+        "avgKill": 7,
+        "avgAssist": 9,
+        "avgDmg": 23924,
+        "heroPool": 12,
+        "comm": 80,
+        "tourney": 5
+      }
+    },
+    {
+      "name": "JaCkky",
+      "data": {
+        "match": 71,
+        "avgGPM": 669,
+        "avgXPM": 698,
+        "avgKill": 7.5,
+        "avgAssist": 8.6,
+        "avgDmg": 25185,
+        "heroPool": 17,
+        "comm": 75,
+        "tourney": 4
+      }
+    },
+    {
+      "name": "Tims",
+      "data": {
+        "match": 98,
+        "avgGPM": 295,
+        "avgXPM": 444,
+        "avgKill": 3.3,
+        "avgAssist": 15.2,
+        "avgDmg": 14008,
+        "heroPool": 25,
+        "comm": 95,
+        "tourney": 4
+      }
+    }
+  ]
+}

@@ -26,4 +26,6 @@ Setelah mengakses aplikasi SPK melalui `index.html`, Anda dapat mengikuti langka
 2. Atur bobot relatif untuk setiap kriteria yang telah ditentukan.
 3. Klik tombol "Calculate" untuk mendapatkan hasil perangkingan pemain berdasarkan kriteria dan metode yang telah ditentukan.
 4. Aplikasi akan menampilkan nama pemain dengan peringkat tertinggi akan direkomendasikan untuk menjadi bagian dari tim Dota 2 Universitas 45 Surabaya.
-
+   
+## Link
+Link ke [Website](https://spk-roster-dota.vercel.app/). 

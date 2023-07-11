@@ -24,7 +24,6 @@ Setelah mengakses aplikasi SPK melalui `index.html`, Anda dapat mengikuti langka
 
 1. Kriteria yang akan digunakan untuk pemilihan pemain telah ditentukan dan tersedia dalam aplikasi.
 2. Atur bobot relatif untuk setiap kriteria yang telah ditentukan.
-3. Pilih metode penyeimbangan yang diinginkan, dalam hal ini, metode "SAW" dan "TOPSIS" telah digunakan.
-4. Klik tombol "Calculate" untuk mendapatkan hasil perangkingan pemain berdasarkan kriteria dan metode yang telah ditentukan.
-5. Aplikasi akan menampilkan nama pemain dengan peringkat tertinggi akan direkomendasikan untuk menjadi bagian dari tim Dota 2 Universitas 45 Surabaya.
+3. Klik tombol "Calculate" untuk mendapatkan hasil perangkingan pemain berdasarkan kriteria dan metode yang telah ditentukan.
+4. Aplikasi akan menampilkan nama pemain dengan peringkat tertinggi akan direkomendasikan untuk menjadi bagian dari tim Dota 2 Universitas 45 Surabaya.
 
